@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reach us</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <!-- Structured Data (Schema.org) for SEO Pro -->
+    <!--------------------SEO Meta Data Ends------------------------------>
+    <!---------- Link java Sript for Map & Reach Us Block----------------->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Us",
+        "description": "Instant click-to-contact hub including mobile calling, email routing, and physical branch map data.",
+        "url": "https://example.com",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "Your Company Name",
+          "url": "https://example.com",
+          "logo": "https://example.com/logo.png",
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+1-555-123-4567",
+              "contactType": "customer service",
+              "email": "support@example.com",
+              "availableLanguage": ["en"]
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Business Rd, Suite 100",
+            "addressLocality": "New York",
+            "addressRegion": "NY",
+            "postalCode": "10001",
+            "addressCountry": "US"
+          }
+        }
+      }
+    </script>
+    <!---------- Link java Sript for Map & Reach Us Block----------------->
+    <!--------------------Reach Us Map Starts--------------------------------------->
+    <div class="container">
+      <header>
+        <h1>Reach Us</h1>
+        <p>speak with us or find our Sales office.</p>
+      </header>
+
+      <main class="grid-layout">
+        <!-- Action Hub: Call / Email / Address -->
+        <section class="action-card" aria-label="Instant Contact Options">
+          <h2>Contect Us</h2>
+
+          <!-- Explicit Actionable Tap-to-Call Link -->
+          <a
+            href="tel:+919102366273"
+            class="cta-button btn-phone"
+            aria-label="Call Office at +1-555-123-4567"
+          >
+            📞 Call Us
+          </a>
+
+          <!-- Explicit Actionable Tap-to-Email Link -->
+          <a
+            href="mailto:support@://example.com"
+            class="cta-button btn-email"
+            aria-label="Email Support Team at support@example.com"
+          >
+            ✉️ Email Us
+          </a>
+
+          <div class="address-box">
+            <h3>Bihar Drugs Agency</h3>
+            <address>
+              Khairat Ahmed Road <br />Murarpur-823001<br />
+              Gaya, Bihar<br />India
+            </address>
+          </div>
+        </section>
+
+        <!-- Map View Section -->
+        <section class="map-card" aria-label="Our Location Map">
+          <h2>We Are Here</h2>
+          <div class="map-wrapper">
+            <!-- Standard Embedded Map Placeholder. Replace with your customized Google Maps / OpenStreetMap Embed link -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6091.104764613287!2d85.00587363852812!3d24.802555703754145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32b0033c00593%3A0x9925b72eedd34194!2sBihar%20Drugs%20Agency!5e0!3m2!1sen!2sin!4v1790817358390!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
+          </div>
+        </section>
+      </main>
+    </div>
+    <!------------------------------------Reach Us Page Ends----------------------->
+  </head>
+</html>

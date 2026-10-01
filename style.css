@@ -1,0 +1,1766 @@
+/* ======1. GENERAL RESET & TYPOGRAPHY====== */
+
+/* ======== BIHAR DRUGS AGENCY (BDA) - NEW HEADER FRAMEWORk STARTS  ========= */
+/* --- 1. Top Navbar Styling --- */
+.bda-hero-banner{
+    font-family: Poppins, sans-serif;   
+}
+.bda-global-nav {
+    background-color: #5d5d5d ; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) ;
+    padding: 1.5rem 0 ;
+    position: fixed ;
+    top: 0 ;
+    left: 0;
+    z-index: 10001 ;
+    width: 100% ;
+    /*-- Color shine ke liye ise bad me karenege 1 oct-- Deep dark base color with a sharp, glossy light reflection reflection *
+    background: linear-gradient(
+    90deg, 
+    #2b2a2a65 100%, 
+    #5e5f5f36 10%, 
+    #3b3b3b 20%, 
+    #333232 10%, 
+    #383838 10%
+  );*/
+  
+  /* Multi-layered shadows: inner glow for depth, sharp outer drop shadow */
+  box-shadow: 
+    inset 0 1px 0 rgba(253, 251, 251, 0.219), 
+    inset 0 -1px 3px rgba(180, 177, 177, 0.8),
+    0 4px 15px rgba(235, 231, 231, 0.6);
+    
+  border: 1px solid #b8b5b5;  
+}
+.bda-nav-container {
+    max-width: 1200px ;
+    margin: 0 auto ;
+    padding: 0 1.5rem ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    box-sizing: border-box ;
+}
+.bda-brand-logo {
+    color: #ffffff ;
+    font-size: 1.75rem ;
+    font-weight: 800 ;
+    text-decoration: none ;
+    letter-spacing: 1px ;
+}
+
+.bda-nav-menu {
+    display: flex ;
+    list-style: none ;
+    gap: 1.75rem ;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.bda-nav-menu a {
+    color: #fff ;
+    text-decoration: none ;
+    font-weight: 500 ;
+    font-size: 22px ;
+    /*opacity: 0.85 ;*/
+    transition: all 0.2s ease ;    
+}
+
+.bda-nav-menu a:hover, 
+.bda-nav-menu a.bda-active {
+    opacity: 1 ;
+    border-bottom: 2px solid #ffffff ;
+    padding-bottom: 4px ;
+}
+
+/* --- 2. Hero Header Banner --- */
+.backgrounimage-page {
+    position: relative ;
+    /* Dark Background Shop Image */
+    background: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)), 
+                url('https://unsplash.com') no-repeat center center/cover ;
+    padding: 7rem 1.5rem ;
+    text-align: center ;
+    color: #ffffff ;
+    width: 100% ;
+    box-sizing: border-box ;
+}
+
+.bda-hero-title {
+    font-size: 3rem ;
+    font-weight: 800 ;
+    margin-bottom: 1rem ;
+    letter-spacing: -0.5px ;
+    line-height: 1.2 ;
+}
+
+.bda-hero-subtitle {
+    font-size: 1.25rem ;
+    max-width: 650px ;
+    margin: 0 auto 2.5rem ;
+    color: #d1d5db ;
+    line-height: 1.6 ;
+}
+
+.bda-call-btn {
+    display: inline-flex ;
+    align-items: center ;
+    background-color: #ffffff ;
+    color: rgb(156, 155, 155) ;
+    padding: 0.85rem 2.5rem ;
+    border-radius: 8px ;
+    font-weight: 700 ;
+    text-decoration: none ;
+    font-size: 1.1rem ;
+    box-shadow: 0 4px 15px rgba(255,255,255,0.1) ;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+.bda-call-btn:hover {
+    transform: translateY(-3px) ;
+    box-shadow: 0 8px 25px rgba(255,255,255,0.2) ;
+    background-color: #f9fafb ;
+}
+
+/* --- 3. Premium 3-Column Footer --- */
+.bda-main-footer {
+    background-color: #5d5d5d ; 
+    color: #e5e7eb ;
+    padding: 4rem 1.5rem 2rem ;
+    border-top: 1px solid rgba(255,255,255,0.1) ;
+    width: 100% ;
+    box-sizing: border-box ;
+}
+
+.bda-footer-grid {
+    max-width: 1200px ;
+    margin: 0 auto ;
+    display: grid ;
+    grid-template-columns: 4fr 4fr 4fr ;
+    gap: 3rem ;
+    box-sizing: border-box ;
+}
+
+.bda-footer-col h3 {
+    color: #ffffff ;
+    font-size: 1.35rem ;
+    margin-bottom: 1.5rem ;
+    font-weight: 700 ;
+}
+
+.bda-logo-green {
+    color: #22c55e ; /* Green Logo Text */
+}
+
+.bda-footer-col p {
+    font-size: 0.95rem ;
+    color: #d1d5db ;
+    margin-bottom: 0.75rem ;
+    line-height: 1.6 ;
+}
+
+.bda-footer-links {
+    list-style: none ;
+    padding: 0 ;
+    margin: 0 ;
+}
+
+.bda-footer-links li {
+    margin-bottom: 0.75rem ;
+}
+
+.bda-footer-links a {
+    color: #d1d5db ;
+    text-decoration: none ;
+    font-size: 0.95rem ;
+    transition: color 0.2s ease ;
+}
+
+.bda-footer-links a:hover {
+    color: #ffffff ;
+}
+
+.bda-footer-bottom {
+    text-align: center ;
+    max-width: 1200px ;
+    margin: 2.5rem auto 0 ;
+    padding-top: 2rem ;
+    border-top: 1px solid rgba(255,255,255,0.1) ;
+    font-size: 0.9rem ;
+    color: #9ca3af ;
+}
+
+/* --- 📱 Smart Responsive Rules --- */
+@media (max-width: 992px) {
+    .bda-footer-grid { grid-template-columns: 1fr 1fr ; }
+}
+
+@media (max-width: 768px) {
+    .bda-hero-title { font-size: 2.25rem ; }
+    .bda-footer-grid { grid-template-columns: 1fr ; gap: 2rem ; }
+    .bda-nav-menu { display: none ; } 
+}
+/* --- Hemberg Buttun Style (it will be hiden by defalt in large screen) --- */
+.bda-hamburger {
+    display: none ;
+    flex-direction: column ;
+    justify-content: space-between ;
+    width: 30px ;
+    height: 21px ;
+    background: transparent ;
+    border: none ;
+    cursor: pointer ;
+    padding: 0 ;
+    z-index: 10001 ;
+}
+
+.bda-hamburger span {
+    width: 100% ;
+    height: 3px ;
+    background-color: #ffffff ;
+    border-radius: 2px ;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+/* --- 📱 Mobile screen's Responsive Rules  --- */
+@media (max-width: 768px) {
+    .bda-hamburger {
+        display: flex ; /* Hembuerg button Will show */
+    }
+
+    /* in Mobile menu will be drop down type in sparate box  */
+    body .bda-nav-menu {
+        display: flex ;
+        flex-direction: column ;
+        position: absolute ;
+        top: 100% ;
+        left: 0 ;
+        width: 100% ;
+        background-color: #5d5d5d ; 
+        padding: 0 ;
+        gap: 0 ;
+        max-height: 0 ; 
+        overflow: hidden ;
+        transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1) ; /* Smooth Opening*/
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1) ;
+    }
+
+    body .bda-nav-menu li {
+        width: 100% ;
+        border-top: 1px solid rgba(255,255,255,0.05) ;
+    }
+
+    body .bda-nav-menu a {
+        display: block ;
+        padding: 1.25rem 1.5rem ;
+        width: 100% ;
+    }
+
+    body .bda-nav-menu a:hover, 
+    body .bda-nav-menu a.bda-active {
+        background-color: rgba(255,255,255,0.1) ;
+        border-bottom: none ;
+        padding-bottom: 1.25rem ;
+    }
+
+    /* --- 🌟 JAvscript se active classes --- */
+    
+    /* When Menu will open (Max-height will get Greater) */
+    body .bda-nav-menu.bda-menu-open {
+        max-height: 400px ; 
+    }
+
+    /* Animation for turning Hmeburg to 'x' */
+    .bda-hamburger.bda-close-toggle span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg) ;
+    }
+    .bda-hamburger.bda-close-toggle span:nth-child(2) {
+        opacity: 0 ; 
+    }
+    .bda-hamburger.bda-close-toggle span:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg) ;
+    }
+}
+
+.bda-nav-container {
+    max-width: 1200px ;
+    margin: 0 auto ;
+    padding: 0 1.5rem ;
+    display: flex ;
+    align-items: center ;
+    box-sizing: border-box ;
+}
+
+/* logo and Links to be kept left side (setting) */
+.bda-brand-logo {
+    color: #ffffff ;
+    text-decoration: none ;
+    letter-spacing: 2px ;
+    margin-right: 2rem ;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bda-nav-menu {
+    display: flex ;
+    list-style: none ;
+    gap: 1.5rem ;
+    margin: 0 ;
+    padding: 0 ;
+    flex-grow: 1 ; 
+}
+
+.bda-nav-menu a:hover, 
+.bda-nav-menu a.bda-active {
+    opacity: 1 ;
+    border-bottom: 2px solid #ffffff ;
+    padding-bottom: 4px ;
+}
+
+/* --- 2. Desktop Search Bar with orange Button --- */
+.bda-search-wrapper {
+    position: relative ;
+}
+
+.bda-mobile-search-trigger {
+    display: none ; /* on Desktop Mobile icon will hide */
+}
+
+.bda-search-form {
+    display: flex ;
+    align-items: center ;
+    border: 2px solid #ffffff ;
+    background-color: transparent ;
+    border-radius: 2px ;
+    overflow: hidden ;
+    height: 40px;
+    min-width: 18%;
+}
+
+.bda-search-input {
+    background-color: transparent ;
+    border: none ;
+    padding: 0.4rem 0.75rem ;
+    color: #ffffff ;
+    font-size: 0.9rem ;
+    outline: none ;
+    width: 180px ;
+}
+
+.bda-search-input::placeholder {
+    color: #cccccc ;
+    opacity: 0.7 ;
+}
+
+.bda-search-btn {
+    background-color: #ff3d00 ; 
+    color: #ffffff ;
+    padding: 15px;
+    cursor: pointer ;
+    font-size: 17px ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    border-radius: 2px solid;
+}
+
+/* --- 3. Hemberg Button Base Design--- */
+.bda-hamburger {
+    display: none ;
+    flex-direction: column ;
+    justify-content: space-between ;
+    width: 24px ;
+    height: 18px ;
+    background: transparent ;
+    border: none ;
+    cursor: pointer ;
+    padding: 0 ;
+}
+
+.bda-hamburger span {
+    width: 100% ;
+    height: 2.5px ;
+    background-color: #ffffff ;
+    border-radius: 2px ;
+    transition: all 0.3s ease ;
+}
+
+/* --- 📱 4. Mobile Tablet screen Responsive Rules --- */
+@media (max-width: 768px) {
+    .bda-nav-container {
+        justify-content: space-between ; 
+    }
+
+    /* Hemburg Will show left side */
+    .bda-hamburger {
+        display: flex ;
+        order: 1 ;
+    }
+
+    /* Logo will come in middle */
+    .bda-brand-logo {
+        order: 2 ;
+        margin: 0 auto ;
+        position: absolute ;
+        left: 50% ;
+        transform: translateX(-50%) ;
+    }
+
+    /* Search raper will be Right side  */
+    .bda-search-wrapper {
+        order: 3 ;
+    }
+
+    /* On Mobile Inplace of Search bar only Search Icin Will show */
+    .bda-mobile-search-trigger {
+        display: block ;
+        background: transparent ;
+        border: none ;
+        color: #ffffff ;
+        font-size: 1.25rem ;
+        cursor: pointer ;
+    }
+
+    /* Mobile Search Form  will be hidden when triggered will show below */
+    body .bda-search-form {
+        display: none ;
+        position: absolute ;
+        top: 100% ;
+        right: 0 ;
+        background-color: #5d5d5d ;
+        width: 220px ;
+        margin-top: 0.75rem ;
+        border: 1px solid #5d5d5d ;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2) ;
+    }
+
+    /* When java script Class will be Activated then Mobile search Box will show */
+    body .bda-search-form.bda-search-open {
+        display: flex ;
+    }
+
+    body .bda-search-input {
+        width: 100% ;
+        padding: 0.5rem ;
+    }
+
+    /* Mobile Slide Down menu links */
+    body .bda-nav-menu {
+        display: flex ;
+        flex-direction: column ;
+        position: absolute ;
+        top: 100% ;
+        left: 0 ;
+        width: 100% ;
+        background-color: #5d5d5d ;
+        padding: 0 ;
+        gap: 0 ;
+        max-height: 0 ;
+        overflow: hidden ;
+        transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1) ;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1) ;
+    }
+
+    body .bda-nav-menu li {
+        width: 100% ;
+        border-top: 1px solid rgba(255,255,255,0.05) ;
+        
+
+    }
+
+    body .bda-nav-menu a {
+        display: block ;
+        padding: 1.25rem 1.5rem ;
+    }
+
+    body .bda-nav-menu.bda-menu-open {
+        max-height: 400px ;
+    }
+
+    /* Hemburg to close & turn into 'x' mark */
+    .bda-hamburger.bda-close-toggle span:nth-child(1) { transform: translateY(7.5px) rotate(45deg) ; }
+    .bda-hamburger.bda-close-toggle span:nth-child(2) { opacity: 0 ; }
+    .bda-hamburger.bda-close-toggle span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg) ; }
+}
+/* ======== BIHAR DRUGS AGENCY (BDA) - NEW HEADER FRAMEWORk ENDS  ========= */
+/* =====  BIHAR DRUGS AGENCY (BDA) - HOME PAGE/SHOP BACKGROUND IMAGE FRAMWORK STARTS======= */
+
+/* 1. Flex look for Eliments on Homepage */
+.backgrounimage-page {
+    position: relative;
+    z-index: 1;
+    isolation: isolate; /*asure content don't get hedden before background */
+    min-height: 100vh;
+    margin: 0;
+
+    /* ---- Home Page Text  & other Icon settings---- */
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;  
+    align-items: center;      
+    text-align: center;       
+    padding: 0 20px;          
+}
+
+/* 2. Pseudo-element will handle Background  image */
+.backgrounimage-page::before {
+    content: "";
+    position: absolute; /* will fix image on sceen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* image path */
+    background-image: url('assets/Shop\ Bakground\ image.png'); 
+    
+    /* making image fully responsive  */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* control opecity from here */
+    opacity: 0.2; 
+    
+    /* to push background  bihind the content */
+    z-index: -1; /* attenttion please keep it -1 so that background must be before content */
+}
+/**-------------- Css for text & button----------------------**/
+.bda-hero-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.bda-hero-subtitle {
+    font-size: 1.2rem;
+    color: #dddddd;
+    max-width: 600px; /* Paragraph will be stricted and will not get wider */
+    margin-bottom: 10px;
+}
+
+.bda-call-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+
+.bda-call-btn:hover {
+    background-color: #ff4500; 
+    color: #ffffff;
+    transform: scale(1.05); /* slidly bigger effect on hover */
+}
+/* =====  BIHAR DRUGS AGENCY (BDA) - HOME PAGE/SHOP BACKGROUND IMAGE FRAMWORK ENDS======= */
+/* ----------------Floating whats app and call Action Panel Container starts------------*/
+.floating-contact-panel {
+    position: fixed;
+    bottom: 25px;       /* Screen ke bottom se distance */
+    right: 25px;        /* Screen ke right side se distance */
+    display: flex;
+    flex-direction: column; /* Buttons ko ek ke upar ek rakhne ke liye */
+    gap: 15px;          /* Dono buttons ke beech ka gap */
+    z-index: 9999;      /* Taki ye pure design ke upar floating dikhe */
+}
+
+/* Base Floating Button Style */
+.floating-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+/* Smooth Hover Animation */
+.floating-btn:hover {
+    transform: scale(1.1) translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* WhatsApp Theme Colors */
+.float-whatsapp {
+    background-color: #25D366;
+     width: 50px;
+        height: 50px;
+}
+.float-whatsapp:hover {
+    background-color: #20ba5a;
+}
+
+/* Call Theme Colors (Red style matching your 'Call Now' design) */
+.float-call {
+    background-color: #25D366; /* Isko aap picture ke accordance dark red ya orange set kar sakte hain */
+}
+.float-call:hover {
+    background-color: #25D366;
+}
+
+/* Mobile Responsive Optimization */
+@media (max-width: 480px) {
+    .floating-contact-panel {
+        bottom: 15px;
+        right: 15px;
+        gap: 10px;
+    }
+    
+    .floating-btn {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .floating-btn svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+/* ----------------Floating whats app and call Action Panel Container ends------------*/
+/*------Map Popup css Starts-------*/
+ /*body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        height: 1000px; / स्क्रॉल टेस्ट करने के लिए *
+      }
+
+      /* बटन्स का कंटेनर (स्क्रीन के निचले-दाएं कोने में फिक्स) *
+      .fab-container {
+        position: fixed;
+        bottom: 90px;
+        right: 15px;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+      }
+
+      /* बटन्स का गोल डिज़ाइन *
+      .fab-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: none;
+        color: #ffffff;
+        font-size: 24px;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.2s ease;*
+        width: 50px;
+        height: 50px;
+        background: #ff4757;
+        border-radius: 50% 50% 50% 0;
+        transform: rotate(-45deg);
+        display: flex;
+        justify-content: center;
+        transition: transform 0.2s ease;   
+        align-items: center;    
+      }
+      /*
+
+      .fab-btn:active {
+        transform: scale(0.9);
+      }
+
+      .fab-whatsapp-btn {
+        background-color: #25d366;
+        text-decoration: solid;
+      }
+
+      .fab-trigger-btn {
+        background-color: #eef1f5;
+      }
+
+      /* 📱 100% रिस्पॉन्सिव इमेज पॉपअप बॉक्स *
+      .fab-image-popup {
+        position: fixed;
+        bottom: 150px; /* वॉट्सऐप बटन के ठीक ऊपर की पोजीशन *
+        right: 15px;
+        width: 100%; /* छोटी स्क्रीन पर स्क्रीन साइज के हिसाब से खुद सिकुड़ेगा *
+        height: 100%;
+        top: 35px;
+        max-width: 650px; /* किसी भी बड़े फोन पर 300px से चौड़ा नहीं होगा *
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+        display: none; /* शुरू में छुपा रहेगा *
+        flex-direction: column;
+        z-index: 10000;
+        box-sizing: border-box;
+      }
+
+      /* एक्टिव होने पर दिखने के लिए *
+      .fab-image-popup.is-active {
+       display: flex ;
+      }
+
+      .fab-popup-header {
+        background: #f8f9fa;
+        padding: 10px 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+      }
+
+      .fab-popup-title {
+        margin: 0;
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+      }
+
+      .fab-close-btn {
+        background: none;
+        border: none;
+        font-size: 22px;
+        color: #888;
+        cursor: pointer;
+        padding: 0;
+        line-height: 1;
+      }
+
+      .fab-popup-body {
+        padding: 0px;
+        background: #eee;
+        width: 100%;
+      }
+
+      /* इमेज को रिस्पॉन्सिव बनाने की मुख्य सेटिंग *
+      .fab-responsive-img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+      }
+
+      /* 💻 डेस्कटॉप व्यू मीडिया क्वेरी: अगर आप चाहते हैं कि कंप्यूटर स्क्रीन पर भी दिखे, तो इसे हटा सकते हैं। अभी यह 768px से बड़ी स्क्रीन पर सब कुछ छुपा देगा। *
+      @media screen and (min-width: 769px) {
+        .fab-container,
+        .fab-image-popup {
+          display: none ;
+        }
+      }
+      /*------Map Popup css Ends-------*/
+      /* डिफ़ॉल्ट रूप से डेस्कटॉप पर इसे पूरी तरह छुपा दें */
+.mobile-map-btn, .map-modal {
+    display: none;
+}
+
+/* सिर्फ मोबाइल और टैबलेट स्क्रीन (991px से छोटी) के लिए */
+@media screen and (max-width: 410px) {
+    
+    /* 1. फ्लोटिंग बटन जो WhatsApp/Call के ऊपर दिखेगा */
+    .mobile-map-btn {
+        display: block; /* मोबाइल पर शो करें */
+        position: fixed;
+        bottom: 85px;   /* WhatsApp और Call बटन के JUST UPAR रखने के लिए दूरी */
+        right: 17px;     /* दाईं तरफ (Right Side) पिन करने के लिए */
+        width: 70px;     /* बटन का साइज */
+        height: 70px;
+        z-index: 2000;    /* ताकि यह बाकी कंटेंट के ऊपर तैरता रहे */
+        background: #ffffff;
+        border-radius: 25px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        padding: 5px;
+        transition: transform 0.2s ease;  
+        width: 50px;
+        height: 50px;
+        background: #ffffff;
+        border-radius: 50% 50% 50% 0;
+        transform: rotate(-45deg);
+        display: flex;
+        justify-content: center;
+        transition: transform 0.2s ease;   
+        align-items: center; 
+        border-color: #0408fa;
+    }
+    /* बटन के अंदर आपकी भेजी हुई मैप इमेज सेट करना */
+    .mobile-map-btn img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* इमेज को डिब्बे में फिट रखेगा */
+        border-radius: 8px;
+    }
+
+    .mobile-map-btn:active {
+        transform: scale(0.9); /* क्लिक करने पर हल्का दबेगा */
+    }
+
+    /* 2. पॉपअप (Modal) डिजाइन - जब यूजर बटन पर क्लिक करेगा */
+    .map-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8); /* पीछे का बैकग्राउंड डार्क करेगा */
+        z-index: 2000; /* सबसे ऊपर दिखेगा */
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .map-modal-content {
+        position: relative;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 12px;
+        max-width: 90%;
+        max-height: 85vh;
+        text-align: center;
+    }
+
+    .map-modal-content img {
+        width: 100%;
+        height: auto;
+        max-height: 75vh;
+        object-fit: contain;
+    }
+
+    /* क्लोज (X) बटन */
+    .close-modal {
+        position: absolute;
+        bottom: -35px;
+        right: -7px;
+        color: #fff;
+        font-size: 35px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+/*--------------------------------------Folating map button Ke Liye Css-------------------->
+/*-----------------------------About Page Starts--------------------------------------*/
+/* RESET & VARIABLES */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #ffffff;
+
+  --bg-secondary: #f9f9f9;
+  --text-dark: #111111;
+  --text-muted: #555555;
+  --accent-color: #0070f3;
+  --gap-md: 24px;
+  --gap-lg: 48px;
+}
+/*-----About page me Manzar Alam And Tagline ka CSS hai sirf starts -------*/
+.narrative-tagline{
+    font-family: 'Arial', sans-serif;
+  font-size: 1.1rem;
+  color: #666666;
+  font-style: italic;
+  margin-top: -20px;
+}
+p {
+  /* text paragarph wide rules (500px से 700px)  */
+  max-width: 400px; 
+  
+  /* if wish to keep pragraoh in centre */
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* line spacing */
+  line-height: 1.6; 
+}
+/*------About page me Manzar Alam And Tagline ka CSS hai sirf ends*/
+.about-page {
+  font-family: Poppins, sans-serif;
+  color: var(--text-dark);
+  line-height: 1.6;
+ /* background-color: #ffffff;*/
+}
+
+/* 1. HERO SECTION */
+.about-hero {
+  padding: 100px var(--gap-md);
+  text-align: center;
+  /*background-color: var(--bg-secondary);*/
+}
+.about-hero h1 {
+  font-size: 2.5rem;
+  max-width: 800px;
+  margin: 0 auto 16px;
+  padding: 50px;
+}
+h1{
+    margin-top: 20px;
+}
+h1{
+    margin-top: 20px;
+}
+.hero-sub {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* 2. ORIGIN NARRATIVE (Asymmetric Split Flexbox) */
+.about-origin {
+  padding: 25px var(--gap-md);
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  
+}
+.split-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-lg);
+  
+  
+}
+@media (min-width: 768px) {
+  .split-container {
+    flex-direction: row;
+    align-items: center;
+  }
+.narrative-media {
+    flex: 1; 
+  }
+}
+.media-placeholder {
+  background-color: #ffffff;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  border-radius: 8px;
+}
+
+/* 3. VALUES SECTION (Dynamic Grid) */
+
+.about-values {
+  padding: 0 0px;
+  background-color: var(--bg-secondary);
+  text-align: center;
+}
+.about-values h2 { margin-bottom: var(--gap-lg); }
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--gap-md);
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.value-card {
+  background: var(--bg-primary);
+  padding: 32px;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 16px 48px rgb(212, 177, 228);
+}
+.card-icon { font-size: 2rem; margin-bottom: 16px; }
+
+.about-cta {
+  padding: 80px var(--gap-md);
+  background-color: var(--text-dark);
+  color: var(--bg-primary);
+  text-align: center;
+}
+.cta-box {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.cta-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 24px;
+}
+.btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn-primary { background-color: var(--accent-color); color: white; }
+.btn-secondary { background-color: transparent; color: white; border: 1px solid white; }
+
+.media-asset-item-shop{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*keep image in box */
+    display: block;
+    border-radius: 10px;     
+    background-color: #ffffff; /* background color will reflect behind the image  */
+
+}  
+/*--Brands Logo Section--*/ 
+/* Partners section main layout */
+.partners-section {
+    padding: 0px 0px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Main Heading */
+.partners-title {
+    font-size: 26px;
+    color: #333333;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0px;
+}
+
+/* Responsive Grid for mobile and Desktop both */
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 1275px;
+    margin: 0 auto;
+}
+
+/* Every Brand Box */
+.brand-box {
+    background: #ffffff;
+    border: 1px solid #eef2f5;
+    border-radius: 12px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04); 
+    transition: all 0.3s ease;
+}
+
+
+.brand-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    border-color: #007bff; /* light blue color */
+}
+
+/* very imortant to control images */
+.brand-box img {
+    max-width: 80%;
+    height: 70px; /* for all images same height */
+    object-fit: contain; 
+    margin-bottom: 15px;
+    filter: grayscale(20%); /* light & decent look for color */
+    transition: filter 0.3s ease;
+}
+
+.brand-box:hover img {
+    filter: grayscale(0%); 
+}
+
+/* text style of box  */
+.brand-box h3 {
+    font-size: 16px;
+    color: #222222;
+    margin: 5px 0 2px 0;
+    font-weight: 600;
+}
+
+.brand-box p {
+    font-size: 12px;
+    color: #777777;
+    margin: 0;
+}
+/*-- Brands Logo Section starts--*/
+/*-- way to us css----*/
+/*.way-to-us h2{
+    margin-top: 50px;
+    padding: 0px 0px;
+    background-color: #ffffff;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    
+}
+/*---way to us css end----*/
+/****way to us ke hover ke liye----*/
+
+/* 1. Map image & Form Box Starting Css */
+.backgrounimage-page img, 
+.backgrounimage-page + div, 
+form, 
+.bda-hero-content + div,
+[class*="content"] { 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* to make effect smooth  */
+}
+
+/* 2. Map Hover */
+.backgrounimage-page img:hover,
+div img:hover {
+    transform: translateY(-5px); /* Box % px Up */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+    cursor: pointer;
+}
+
+/* 3. form box hover */
+.backgrounimage-page + div:hover,
+form:hover,
+div:has(> form):hover {
+      transform: translateY(-5px); /* फॉर्म भी 5 पिक्सेल ऊपर उठेगा */
+    /*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);*/ /* पीछे सुंदर परछाई आएगी */
+}
+/*------way to us hover ends----*/
+/*-----------------------------About Page ends--------------------------------------*/
+
+/*---------------------------contact us &  image css starts--------------------*
+  :root {
+    --bg-surface: #ffffff;
+    --bg-input: #f8fafc;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --accent-color: #4f46e5;
+    --accent-hover: #4338ca;
+    --border-color: #e2e8f0;
+    --radius-main: 16px;
+    --radius-inner: 8px;
+}
+
+.profile-card-wrapper {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: var(--radius-main);
+    /*box-shadow: 20px 10px 25px -5px rgb(226, 202, 202), 20px 10px 25px -5px rgb(132, 200, 218);*
+    overflow: hidden;
+    font-family: Poppins, sans-serif;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+
+.gallery-preview-panel {
+    flex: 1;
+    min-height: 550px;
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 50px;
+    
+   
+}
+
+.media-asset-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+}
+
+.user-meta-panel {
+    flex: 1.2;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 10px 10px rgba(209, 209, 209, 0.3);
+    border-radius: 10px;
+    min-height: 550px;
+    
+
+}
+
+.panel-primary-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    /*color: var(--text-main);*
+    margin: 0 0 8px 0;
+}
+
+.panel-sub-text {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin: 0 0 32px 0;
+}
+
+.data-submission-node {
+    width: 100%;
+}
+
+.text-field-container {
+    margin-bottom: 20px;
+    
+}
+
+.field-descriptor-text {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-main);
+    margin-bottom: 8px;
+}
+
+.core-input-element {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    color: var(--text-main);
+    background-color: var(--bg-input);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-inner);
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+.core-input-element:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
+}
+
+.text-area-element {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.action-trigger-element {
+    width: 100%;
+    padding: 14px;
+    background-color: #adadad;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: var(--radius-inner);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+}
+
+.action-trigger-element:hover {
+    background-color:  #ff3d00;
+    
+}
+
+@media (max-width: 768px) {
+    .profile-card-wrapper {
+        flex-direction: column;
+        margin: 0px;
+        width: calc(100% - 0px);
+    }
+    .gallery-preview-panel {
+        min-height: 250px;
+        height: auto;
+        
+        
+        
+        
+    }
+    .user-meta-panel {
+        padding-top: 40px;
+        box-shadow: 0 0 10px 10px rgba(209, 209, 209, 0.3);
+        border-radius: 10px;
+    }
+}*/
+/*---------------------------contact us & image css ends-------------------->
+ /* --- Values Section Starts(Grid Layout) --- */
+        /* --- Core Reset & Design Tokens --- */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+            background-color: #f7fafc;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        .values-section {
+            background-color: #ffffff;
+            padding: 02rem 0;
+
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #2b6cb0;
+            margin-top: 0rem;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .value-card {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease;
+        }
+
+        .value-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .value-card h3 {
+            font-size: 1.35rem;
+            margin-bottom: 1rem;
+            color: #2b6cb0;
+            text-align: center;
+        }
+
+        /* --- Footer Section --- */
+        footer {
+            background-color: #ffffff;
+            color: #a0aec0;
+            padding: 2rem 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* --- Responsive Queries (No Framework Breakpoints) --- */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.25rem; }
+            .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+            .about-image { height: 250px; }
+        }
+        /* --- Values Section Ends(Grid Layout) --- */
+        /*--------------------------------Reach us css Page Starts----------------------*/
+         :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --success: #16a34a;
+            --success-hover: #15803d;
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
+            --bg-body: #ffffff;
+            --bg-card: #ffffff;
+            --border-color: #e5e7eb;
+            --radius: 12px;
+            --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+         * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.5;
+            padding: 16px 8px;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 24px;
+            padding: 0 8px;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            color: var(--text-main);
+            margin-bottom: 6px;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+
+        .action-card, .map-card {
+            background: var(--bg-card);
+            padding: 20px;
+            border-radius: var(--radius);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border: 1px solid var(--border-color);
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin-bottom: 16px;
+            color: var(--text-main);
+            font-weight: 700;
+        }
+
+        /* Action Buttons for Mobile Tap Optimization */
+        .cta-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 16px;
+            margin-bottom: 12px;
+            border-radius: var(--radius);
+            font-size: 1.05rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: #ffffff;
+            transition: var(--transition);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .cta-button:last-of-type {
+            margin-bottom: 20px;
+        }
+
+        .btn-phone {
+            background-color: var(--success);
+        }
+        .btn-phone:hover {
+            background-color: var(--success-hover);
+        }
+
+        .btn-email {
+            background-color: var(--primary);
+        }
+        .btn-email:hover {
+            background-color: var(--primary-hover);
+        }
+
+        /* Address Presentation */
+        .address-box {
+            border-top: 1px solid var(--border-color);
+            padding-top: 16px;
+        }
+
+        .address-box h3 {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 6px;
+        }
+
+        address {
+            font-style: normal;
+            font-size: 1.05rem;
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        /* Responsive Fluid Map Container */
+        .map-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 75%; /* 4:3 Aspect Ratio optimal for tiny mobile layouts */
+            height: 0;
+            overflow: hidden;
+            border-radius: calc(var(--radius) - 4px);
+            border: 1px solid var(--border-color);
+            background: #e5e7eb;
+        }
+
+        .map-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Micro-Screen Viewports (Android Wear / Galaxy Fold Inner / Tiny Displays) */
+        @media (min-width: 240px) {
+            body { padding: 12px 6px; }
+            h1 { font-size: 1.5rem; }
+            .action-card, .map-card { padding: 14px; }
+            .cta-button { padding: 14px; font-size: 1rem; }
+        }
+
+        /* Desktop & Tablet Wide Views */
+        @media (min-width: 768px) {
+            .grid-layout {
+                grid-template-columns: 1fr 1.2fr;
+                gap: 24px;
+            }
+            body { padding: 48px 16px; }
+            h1 { font-size: 2.25rem; }
+            .map-wrapper { padding-bottom: 0; height: 100%; min-height: 320px; }
+            .map-card { display: flex; flex-direction: column; }
+            .map-card .map-wrapper { flex-grow: 1; }
+        }
+    <!--------------------------------Reach us css Page Ends---------------------->
+
+/*-------------------------footer----------------------------*/
+/* ======== BDA PREMIUM RESPONSIVE FOOTER CODE (OVERRIDE SAFE)=========== */
+:root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --success: #16a34a;
+            --success-hover: #15803d;
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
+            --bg-body: #ffffff;
+            --bg-card: #ffffff;
+            --border-color: #e5e7eb;
+            --radius: 12px;
+            --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+         * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.5;
+            padding: 0px 0px;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+
+.bda-f-main-footer {
+    background-color: #5d5d5d; 
+    /*--- color bad me karenge 1 oct-- Deep dark base color with a sharp, glossy light reflection reflection *
+    background: linear-gradient(
+    90deg, 
+    #fffefe65 100%, 
+    #ffe9e9 100%, 
+    #ebebff 100%, 
+    #ebe5e5 100%, 
+    #c2d6e4 100%
+  );*/
+  
+  /* Multi-layered shadows: inner glow for depth, sharp outer drop shadow */
+  box-shadow: 
+    inset 0 1px 0 rgba(253, 251, 251, 0.219), 
+    inset 0 -1px 3px rgba(180, 177, 177, 0.8),
+    0 4px 15px rgba(235, 231, 231, 0.6);
+    
+  border: 1px solid #ffffff;
+
+    color: #ffffff ;
+    padding: 3rem 1.5rem ;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif ;
+    width: 100% ;
+    box-sizing: border-box ;
+    z-index: 9999;
+    /*position: fixed;*/
+    
+}
+
+.bda-f-footer-container {
+    max-width: 1200px ;
+    margin: 0 auto ;
+    display: grid ;
+    grid-template-columns: 3.5fr 4.5fr 4fr ; /* 3 column layout for desktop */
+    gap: 2.5rem ;
+    align-items: start ;
+    box-sizing: border-box ;
+}
+
+/* Logo & Branding Block */
+.bda-f-logo-area h2 {
+    font-size: 2.25rem ;
+    font-weight: 700 ;
+    margin-bottom: 1.5rem ;
+    color: #ffffff ;
+}
+
+.bda-f-logo-cyan {
+    color: #00bfb3 ; 
+}
+
+.bda-f-quick-links {
+    font-size: 0.95rem ;
+    color: #e5e7eb ;
+    margin-bottom: 1.5rem ;
+}
+
+.bda-f-quick-links a {
+    color: #ffffff ;
+    text-decoration: none ;
+    margin: 0 4px ;
+    transition: opacity 0.2s ;
+}
+
+.bda-f-quick-links a:hover {
+    opacity: 0.8 ;
+}
+
+.bda-f-brand-name {
+    font-size: 1.15rem ;
+    font-weight: 700 ;
+    color: #ffffff ;
+}
+
+/*---Contact Info with Custom SVG Icons)-----*/
+.bda-f-contact-area {
+    display: flex ;
+    flex-direction: column ;
+    gap: 1.25rem ;
+}
+
+.bda-f-info-row {
+    display: flex ;
+    align-items: center ;
+    gap: 1rem ;
+}
+
+.bda-f-icon-circle {
+    width: 42px ;
+    height: 42px ;
+    background-color: #3e3e3e ; 
+    /* Deep dark base color with a sharp, glossy light reflection reflection */
+    background: linear-gradient(
+    90deg, 
+    #fffefe65 100%, 
+    #ffe9e9 100%, 
+    #ebebff 100%, 
+    #ebe5e5 100%, 
+    #c2d6e4 100%
+  );
+  
+  /* Multi-layered shadows: inner glow for depth, sharp outer drop shadow */
+  box-shadow: 
+    inset 0 1px 0 rgba(253, 251, 251, 0.219), 
+    inset 0 -1px 3px rgba(180, 177, 177, 0.8),
+    0 4px 15px rgba(235, 231, 231, 0.6);
+    
+  border: 1px solid #ffffff;
+
+    border-radius: 50% ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    flex-shrink: 0 ;
+}
+
+.bda-f-icon-circle svg {
+    width: 20px ;
+    height: 20px ;
+    fill: #ffffff ;
+}
+
+.bda-f-info-text {
+    font-size: 0.95rem ;
+    line-height: 1.4 ;
+    color: #f3f4f6 ;
+}
+
+/*------About Company Sociel Media block-----*/
+.bda-f-about-area h3 {
+    font-size: 1.1rem ;
+    font-weight: 700 ;
+    margin-bottom: 1rem ;
+    color: #ffffff ;
+}
+
+.bda-f-about-text {
+    font-size: 0.88rem ;
+    line-height: 1.6 ;
+    color: #e5e7eb ;
+    margin-bottom: 1.5rem ;
+}
+
+.bda-f-social-wrapper {
+    display: flex ;
+    gap: 0.75rem ;
+}
+
+.bda-f-social-box {
+    width: 36px ;
+    height: 36px ;
+    background-color: #ffffff ; /* Sociel icon White box */
+    border-radius: 4px ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    text-decoration: none ;
+    transition: transform 0.2s ;
+}Format Document
+
+.bda-f-social-box:hover {
+    transform: translateY(-3px) ;
+}
+
+.bda-f-social-box svg {
+    width: 18px ;
+    height: 18px ;
+    fill: #5d5d5d ; /* Inbox colo */
+}
+
+/* --- 📱 2.Mobile & tablet responsive --- */
+@media (max-width: 768px) {
+    body .bda-f-footer-container {
+        grid-template-columns: 1fr ; /* 1 column Layot */
+        gap: 3rem ;
+        text-align: center ; /* All items align centre */
+    }
+
+    body .bda-f-info-row {
+        flex-direction: column ; /* Icon uper side and text beneath */
+        gap: 0.5rem ;
+    }
+
+    body .bda-f-social-wrapper {
+        justify-content: center ; /* Sociel media icon will be in centre */
+    }
+}
+@media (max-width: 768px) {
+    /* from will be hideel by defalt in mobile  */
+    body .bda-search-form {
+        display: none ;
+        position: fixed ;
+        top: 100% ;
+        right: 0 ;
+        background-color: #5d5d5d ;
+        width: 220px ;
+        margin-top: 0.75rem ;
+        border: 1px solid #5d5d5d ;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2) ;
+        border-radius: 4px ;
+        overflow: hidden ;
+    }
+
+    /* 🌟 on activation of class by java script form will show */
+    body .bda-search-form.bda-search-open {
+        display: flex ; /* Attention hera display must be flex */
+    }
+}
+/* =======BDA PREMIUM RESPONSIVE FOOTER CODE ENDS========= */
+
+
